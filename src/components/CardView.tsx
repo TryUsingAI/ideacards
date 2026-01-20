@@ -78,7 +78,7 @@ export function CardView({ card }: { card: CardV1 }) {
         </h2>
         <ul className="mt-3 space-y-2 text-sm leading-6 text-zinc-900 dark:text-zinc-100">
           <li>
-            <span className="font-semibold">Read full article:</span>{" "}
+            <span className="font-semibold">Read the full article:</span>{" "}
             <a
               href={card.escape_hatches.read_full_article_url}
               target="_blank"

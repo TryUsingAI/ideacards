@@ -24,6 +24,7 @@ Cards are designed to restore curiosity, not teach exhaustively.
 
 Every IdeaCard MUST contain the following sections in this exact order.  
 No sections may be omitted. No additional sections may be added.
+No unknown fields are allowed. 
 
 ---
 
