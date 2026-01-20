@@ -4,7 +4,6 @@ export type CardV1 = {
   id: string;
   category: string;
   title: string;
-  image?: { url: string; alt: string };
   definition: string;
   concept_framing: string;
   core_explanation: string;
@@ -14,27 +13,15 @@ export type CardV1 = {
     related_but_different: string;
     common_misconception: string;
   };
-  source: { wikipedia_pageid: number; wikipedia_revision_id: number };
+  source: { type: "wikipedia"; url: string };
 };
 
-export function CardView({ card }: { card: CardV1 }) {
+export function CardView({ card, onNext }: { card: CardV1; onNext: () => void }) {
   return (
     <article className="w-full rounded-2xl border border-black/10 bg-white p-6 shadow-sm dark:border-white/15 dark:bg-black">
       <h1 className="text-2xl font-semibold leading-8 tracking-tight text-zinc-950 dark:text-zinc-50">
         {card.title}
       </h1>
-
-      {card.image ? (
-        <div className="mt-5">
-          {/* Use plain <img> to avoid next/image remote domain config. */}
-          <img
-            src={card.image.url}
-            alt={card.image.alt}
-            className="w-full max-w-xl rounded-xl border border-black/10 object-cover dark:border-white/15"
-            loading="lazy"
-          />
-        </div>
-      ) : null}
 
       <section className="mt-6">
         <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-600 dark:text-zinc-400">
@@ -98,6 +85,16 @@ export function CardView({ card }: { card: CardV1 }) {
           </li>
         </ul>
       </section>
+
+      <div className="mt-8">
+        <button
+          type="button"
+          className="inline-flex h-10 items-center justify-center rounded-xl bg-zinc-950 px-4 text-sm font-medium text-white shadow-sm transition-colors hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-50 dark:text-zinc-950 dark:hover:bg-zinc-200"
+          onClick={onNext}
+        >
+          Next Card →
+        </button>
+      </div>
     </article>
   );
 }

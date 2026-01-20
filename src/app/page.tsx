@@ -77,6 +77,10 @@ export default function Home() {
     filteredCards.find((c) => c.id === currentCardId) ??
     (filteredCards[0] ?? null);
 
+  const handleNextCard = () => {
+    setCurrentCardId((prev) => pickRandomCardId(filteredCards, prev));
+  };
+
   return (
     <div className="min-h-screen bg-zinc-50 font-sans text-zinc-950 dark:bg-black dark:text-zinc-50">
       <main className="mx-auto w-full max-w-3xl px-6 py-10">
@@ -110,11 +114,7 @@ export default function Home() {
               type="button"
               className="inline-flex h-10 items-center justify-center rounded-xl bg-zinc-950 px-4 text-sm font-medium text-white shadow-sm transition-colors hover:bg-zinc-800 disabled:cursor-not-allowed disabled:opacity-50 dark:bg-zinc-50 dark:text-zinc-950 dark:hover:bg-zinc-200"
               disabled={status !== "ready" || filteredCards.length === 0}
-              onClick={() => {
-                setCurrentCardId((prev) =>
-                  pickRandomCardId(filteredCards, prev)
-                );
-              }}
+              onClick={handleNextCard}
             >
               Next card
             </button>
@@ -135,7 +135,7 @@ export default function Home() {
               No cards in this category.
             </p>
           ) : currentCard ? (
-            <CardView card={currentCard} />
+            <CardView card={currentCard} onNext={handleNextCard} />
           ) : (
             <p className="text-sm text-zinc-600 dark:text-zinc-400">
               No card selected.
