@@ -79,6 +79,7 @@ export default function Home() {
 
   const handleNextCard = () => {
     setCurrentCardId((prev) => pickRandomCardId(filteredCards, prev));
+    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
