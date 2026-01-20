@@ -1,0 +1,88 @@
+{
+  "deck_version": "v1",
+  "schema_version": 1,
+  "prompt_version": "2026-01-21-a",
+  "generated_at": "2026-01-21T00:00:00Z",
+  "categories": ["Big Ideas", "Science & Space", "How the World Works"],
+  "cards": [
+    {
+      "id": "map-territory",
+      "category": "Big Ideas",
+      "title": "Map–territory relation",
+      "definition": "The map–territory relation is the distinction between representations of reality and reality itself, noting that descriptions and models omit detail and can mislead.",
+      "concept_framing": "This idea exists because people rely on models and language to navigate the world, and mismatches between description and observation can produce errors.",
+      "core_explanation": "A map, theory, or summary selects some features and ignores others in practice. Different purposes produce different representations of the same situation, and each carries assumptions about what matters. Confusion arises when a representation is treated as complete or when its assumptions are forgotten. When a representation conflicts with observation, disagreement is resolved by observation rather than by the representation.",
+      "why_it_matters": "The distinction matters in science, policy, and everyday reasoning because decisions are made from simplified descriptions. Disputes can persist when parties argue over definitions or metrics rather than the underlying situation. Improving a model can change conclusions without changing the world.",
+      "escape_hatches": {
+        "read_full_article_url": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation",
+        "related_but_different": "Abstraction",
+        "common_misconception": "A representation can be incomplete and still be useful for a limited purpose."
+      },
+      "source": { "wikipedia_pageid": 0, "wikipedia_revision_id": 0 }
+    },
+    {
+      "id": "falsifiability",
+      "category": "How the World Works",
+      "title": "Falsifiability",
+      "image": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Karl_Popper_%281983%29.jpg",
+        "alt": "Karl Popper in 1983"
+      },
+      "definition": "Falsifiability is the property of a claim that implies an observation or experiment could show it to be false, given agreed testing conditions.",
+      "concept_framing": "This idea exists because scientific claims need tests that can rule them out rather than fitting every possible outcome.",
+      "core_explanation": "Falsifiability means a claim implies some observation would count against it. If no evidence could conflict with a claim, testing cannot distinguish it from alternatives. In practice, experiments compare predictions under stated conditions and measurement limits and focus on outcomes a theory forbids. Many theories rely on auxiliary assumptions to connect predictions to data, so falsification is usually indirect and debated.",
+      "why_it_matters": "It is used in debates about what counts as science versus other forms of explanation in society. The idea remains contested because tests depend on background assumptions and measurement choices, and because some fields rarely yield a single decisive refutation.",
+      "escape_hatches": {
+        "read_full_article_url": "https://en.wikipedia.org/wiki/Falsifiability",
+        "related_but_different": "Demarcation problem",
+        "common_misconception": "A falsifiable claim can remain uncertain even after many tests."
+      },
+      "source": { "wikipedia_pageid": 0, "wikipedia_revision_id": 0 }
+    },
+    {
+      "id": "entropy-intuition",
+      "category": "Science & Space",
+      "title": "Entropy",
+      "definition": "Entropy is a quantity that measures the number of microscopic configurations consistent with a system’s macroscopic state, and it relates heat transfer to irreversibility.",
+      "concept_framing": "This idea exists because macroscopic descriptions hide microscopic detail, so a quantity is needed to compare uncertainty and the direction of physical change.",
+      "core_explanation": "In thermodynamics, entropy is defined so that changes directly relate to heat transfer at a given temperature. The second law states that total entropy increases for isolated systems in spontaneous processes. Statistical mechanics connects entropy to the number of microscopic configurations consistent with a macroscopic state. Information theory defines entropy as expected uncertainty of a random variable, measured in bits.",
+      "why_it_matters": "It supports analysis of engines, refrigeration, and heat transport by linking macroscopic irreversibility to microscopic statistics. In computing and communications, it sets limits on compression and reliable transmission, and disagreements arise when definitions are conflated across fields, including scientific literature.",
+      "escape_hatches": {
+        "read_full_article_url": "https://en.wikipedia.org/wiki/Entropy",
+        "related_but_different": "Second law of thermodynamics",
+        "common_misconception": "Entropy is not a direct measure of disorder in everyday language."
+      },
+      "source": { "wikipedia_pageid": 0, "wikipedia_revision_id": 0 }
+    },
+    {
+      "id": "incentives",
+      "category": "How the World Works",
+      "title": "Incentive",
+      "definition": "An incentive is a reward or penalty that changes the expected consequences of an action, influencing choices by altering perceived costs, benefits, or risks.",
+      "concept_framing": "This idea exists because outcomes in institutions depend on which actions are rewarded, punished, or made easy under real constraints.",
+      "core_explanation": "Incentives can be explicit, such as pay, fines, and rules, or implicit, such as status and approval. They shape choices by changing expected consequences under limited information and constraints. Incentives can also shift effort toward measured targets rather than underlying goals. Effects depend on enforcement, monitoring, and who bears costs and benefits overall in a given setting and time horizon.",
+      "why_it_matters": "Incentives help explain why stated goals and observed results can diverge in markets, schools, and bureaucracies. In economics and public policy, disagreements often concern which rewards or penalties are active, how strong they are, and who bears the resulting costs.",
+      "escape_hatches": {
+        "read_full_article_url": "https://en.wikipedia.org/wiki/Incentive",
+        "related_but_different": "Goodhart's law",
+        "common_misconception": "Incentives can be ignored when constraints prevent a response."
+      },
+      "source": { "wikipedia_pageid": 0, "wikipedia_revision_id": 0 }
+    },
+    {
+      "id": "cosmic-distance-ladder",
+      "category": "Science & Space",
+      "title": "Cosmic distance ladder",
+      "definition": "The cosmic distance ladder is a set of methods for measuring astronomical distances by calibrating indirect indicators against nearer, more directly measured distances.",
+      "concept_framing": "This idea exists because distance methods fail at different scales, so astronomy links calibrations to extend reliable measurement.",
+      "core_explanation": "Nearby distances can be measured with geometric parallax. Those measurements calibrate standard candles such as Cepheid variables, which are used to calibrate brighter indicators such as Type Ia supernovae. Each rung has systematic uncertainty from calibration error, dust, and selection effects. Overlapping ranges allow cross-checks that constrain errors and help align results from different instruments and surveys in many datasets.",
+      "why_it_matters": "It underlies estimates of the expansion rate of the universe and large-scale distances in cosmology for galaxies and clusters. Tensions between results from different calibrations motivate debate about systematic error, and the differences affect inferred ages, sizes, and derived parameters.",
+      "escape_hatches": {
+        "read_full_article_url": "https://en.wikipedia.org/wiki/Cosmic_distance_ladder",
+        "related_but_different": "Standard candle",
+        "common_misconception": "Distance indicators require calibration and can share correlated systematic errors."
+      },
+      "source": { "wikipedia_pageid": 0, "wikipedia_revision_id": 0 }
+    }
+  ]
+}
