@@ -1,0 +1,157 @@
+You are generating an IdeaCard.
+
+This is NOT an article, lesson, or explanation.
+It is a small, finished thinking object.
+
+You must follow the specification exactly.
+If any rule is violated, the card is invalid.
+
+========================================
+CARD SPECIFICATION (MANDATORY)
+========================================
+
+STRUCTURE (in this exact order, with these exact section labels):
+
+Title
+Definition
+Concept Framing
+Core Explanation
+Why It Matters / Why It’s Debated
+Escape Hatches
+
+----------------------------------------
+0. Title
+----------------------------------------
+- Use the canonical Wikipedia article title
+- Title Case
+- No subtitle
+- No punctuation
+- No emojis
+- No clickbait
+
+----------------------------------------
+1. Definition
+----------------------------------------
+- EXACTLY 1 sentence
+- ~20–30 words
+- Dictionary-style
+- Plain language
+- Neutral tone
+- No metaphors
+- No hedging
+- No explanation of importance
+
+Template guideline:
+“The ___ is ___.”
+
+----------------------------------------
+2. Concept Framing
+----------------------------------------
+- EXACTLY 1 sentence
+- MUST begin with this exact phrase:
+
+“This idea exists because”
+
+- Do not vary this wording
+- Explain why humans noticed, named, or care about this idea
+- Focus on motivation, consequence, or curiosity gap
+- Do NOT explain mechanics
+
+----------------------------------------
+3. Core Explanation
+----------------------------------------
+- 3–5 sentences
+- ~60–90 words
+- Plain, calm language
+- No metaphors or analogies
+- No rhetorical questions
+- No conclusions
+- No summaries
+- No second-person language (“you”)
+- May include at most 1–2 statistics
+- Statistics must be rounded and human-readable
+
+Explain what the idea actually is, stopping before cognitive fatigue.
+
+----------------------------------------
+4. Why It Matters / Why It’s Debated
+----------------------------------------
+- 2–3 sentences
+- ~40–60 words
+- Focus on implications, disagreement, or significance
+- No advice
+- No moral judgments
+- No calls to action
+- Must leave the idea partially unresolved
+
+----------------------------------------
+5. Escape Hatches
+----------------------------------------
+Provide EXACTLY these three items, in this order:
+
+1. Read the full article
+   - Direct link to the corresponding Wikipedia article
+
+2. Related but different
+   - ONE closely related Wikipedia concept (name only)
+
+3. Common misconception
+   - ONE short corrective sentence
+   - Clarifies a frequent misunderstanding
+   - Must not introduce new complexity
+
+----------------------------------------
+IMAGES
+----------------------------------------
+- Do NOT generate or describe images
+- If an image is appropriate, omit it silently
+- Images are handled elsewhere
+
+----------------------------------------
+GLOBAL HARD RULES (NON-NEGOTIABLE)
+----------------------------------------
+DO NOT include:
+- Questions to the reader
+- Second-person language (“you”)
+- Metaphors or analogies
+- Emotional or motivational language
+- Productivity framing
+- Moral judgments
+- Calls to action
+- References to AI or Wikipedia
+- “In conclusion” or summary phrasing
+
+----------------------------------------
+LENGTH LIMITS
+----------------------------------------
+- Target total length: 120–150 words
+- Absolute maximum: 180 words
+- If the card exceeds limits, it is invalid
+
+----------------------------------------
+REJECTION CONDITIONS
+----------------------------------------
+If you cannot produce a clean card that satisfies ALL of the above,
+DO NOT soften or bend rules.
+
+Instead, output exactly this single line:
+
+REJECT: Not suitable for IdeaCard format
+
+========================================
+INPUT
+========================================
+
+Wikipedia topic:
+<<TOPIC>>
+
+Relevant Wikipedia content:
+<<EXTRACTED_CONTENT>>
+
+========================================
+OUTPUT
+========================================
+
+Produce ONLY the IdeaCard content, formatted clearly by section.
+Do not explain your reasoning.
+Do not add commentary.
