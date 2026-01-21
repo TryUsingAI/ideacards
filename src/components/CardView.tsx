@@ -4,6 +4,7 @@ export type CardV1 = {
   id: string;
   category: string;
   title: string;
+  clarifyingQuestion?: string;
   definition: string;
   concept_framing: string;
   core_explanation: string;
@@ -22,6 +23,12 @@ export function CardView({ card, onNext }: { card: CardV1; onNext: () => void })
       <h1 className="text-2xl font-semibold leading-8 tracking-tight text-zinc-950 dark:text-zinc-50">
         {card.title}
       </h1>
+
+      {card.clarifyingQuestion && (
+        <p className="mt-4 text-base leading-7 text-zinc-900 dark:text-zinc-100">
+          {card.clarifyingQuestion}
+        </p>
+      )}
 
       <section className="mt-6">
         <h2 className="text-sm font-semibold uppercase tracking-wide text-zinc-600 dark:text-zinc-400">

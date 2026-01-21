@@ -5,25 +5,30 @@
   "generated_at": "2026-01-20T20:43:55Z",
   "categories": ["Big Ideas", "Science & Space", "How the World Works"],
   "cards": [
-    {
-      "id": "map-territory",
-      "category": "Big Ideas",
-      "title": "Map–territory relation",
-      "definition": "The map–territory relation is the distinction between representations of reality and reality itself, noting that descriptions and models omit detail and can mislead.",
-      "concept_framing": "This idea exists because people rely on models and language to navigate the world, and mismatches between description and observation can produce errors.",
-      "core_explanation": "A map, theory, or summary selects some features and ignores others in practice. Different purposes produce different representations of the same situation, and each carries assumptions about what matters. Confusion arises when a representation is treated as complete or when its assumptions are forgotten. When a representation conflicts with observation, disagreement is resolved by observation rather than by the representation.",
-      "why_it_matters": "The distinction matters in science, policy, and everyday reasoning because decisions are made from simplified descriptions. Disputes can persist when parties argue over definitions or metrics rather than the underlying situation. Improving a model can change conclusions without changing the world.",
-      "escape_hatches": {
-        "read_full_article_url": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation",
-        "related_but_different": "Abstraction",
-        "common_misconception": "A representation can be incomplete and still be useful for a limited purpose."
-      },
-      "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation" }
-    },
+	{
+	  "id": "map-territory",
+	  "category": "Big Ideas",
+	  "title": "Map–territory relation",
+	  "clarifyingQuestion": "How can accurate descriptions still mislead about reality?",
+	  "definition": "The map–territory relation is the distinction between representations of reality and reality itself, noting that descriptions and models omit detail and can mislead.",
+	  "concept_framing": "This idea exists because people rely on simplified descriptions to reason and decide, and errors appear when those descriptions are mistaken for the world they represent.",
+	  "core_explanation": "Any model, summary, or measurement highlights some features and leaves others out. Different representations of the same situation emphasize different priorities and assumptions. Problems arise when a representation is treated as complete rather than as a limited slice of reality. For example, a performance metric can improve while the underlying system worsens if the metric fails to capture important conditions.",
+	  "why_it_matters": "The distinction shapes how evidence is interpreted in science, economics, and policy. Disagreements often persist when people defend indicators, labels, or models instead of examining what is actually happening. Better representations can improve decisions, but they never replace direct observation.",
+	  "escape_hatches": {
+		"read_full_article_url": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation",
+		"related_but_different": "Abstraction",
+		"common_misconception": "A representation must catpure everything to be useful."
+	  },
+	  "source": {
+		"type": "wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Map%E2%80%93territory_relation"
+	  }
+	},
     {
       "id": "falsifiability",
       "category": "How the World Works",
       "title": "Falsifiability",
+	  "clarifyingQuestion": "What makes a claim testable rather than immune to failure?",
       "definition": "Falsifiability is the property of a claim that implies an observation or experiment could show it to be false, given agreed testing conditions.",
       "concept_framing": "This idea exists because scientific claims need tests that can rule them out rather than fitting every possible outcome.",
       "core_explanation": "Falsifiability means a claim implies some observation would count against it. If no evidence could conflict with a claim, testing cannot distinguish it from alternatives. In practice, experiments compare predictions under stated conditions and measurement limits and focus on outcomes a theory forbids. Many theories rely on auxiliary assumptions to connect predictions to data, so falsification is usually indirect and debated.",
@@ -35,25 +40,30 @@
       },
       "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Falsifiability" }
     },
-    {
-      "id": "entropy-intuition",
-      "category": "Science & Space",
-      "title": "Entropy",
-      "definition": "Entropy is a quantity that measures the number of microscopic configurations consistent with a system’s macroscopic state, and it relates heat transfer to irreversibility.",
-      "concept_framing": "This idea exists because macroscopic descriptions hide microscopic detail, so a quantity is needed to compare uncertainty and the direction of physical change.",
-      "core_explanation": "In thermodynamics, entropy is defined so that changes directly relate to heat transfer at a given temperature. The second law states that total entropy increases for isolated systems in spontaneous processes. Statistical mechanics connects entropy to the number of microscopic configurations consistent with a macroscopic state. Information theory defines entropy as expected uncertainty of a random variable, measured in bits.",
-      "why_it_matters": "It supports analysis of engines, refrigeration, and heat transport by linking macroscopic irreversibility to microscopic statistics. In computing and communications, it sets limits on compression and reliable transmission, and disagreements arise when definitions are conflated across fields, including scientific literature.",
-      "escape_hatches": {
-        "read_full_article_url": "https://en.wikipedia.org/wiki/Entropy",
-        "related_but_different": "Second law of thermodynamics",
-        "common_misconception": "Entropy is not a direct measure of disorder in everyday language."
-      },
-      "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Entropy" }
-    },
+	{
+	  "id": "entropy-intuition",
+	  "category": "Science & Space",
+	  "title": "Entropy",
+	  "clarifyingQuestion": "What does entropy actually measure in physical systems?",
+	  "definition": "Entropy is a quantity that measures the number of microscopic configurations consistent with a system’s macroscopic state, and it relates heat transfer to irreversibility.",
+	  "concept_framing": "This idea exists because macroscopic descriptions hide vast microscopic detail, so a single measure is needed to track how physical processes tend to unfold.",
+	  "core_explanation": "In physics, entropy is defined so that changes connect heat transfer to the number of possible microscopic states compatible with what is observed. Physical systems tend to occupy states that correspond to more microscopic configurations. The second law formalizes this tendency by stating that total entropy increases in isolated systems during spontaneous processes. Other uses of the term, such as in information theory, share a mathematical structure but address different questions.",
+	  "why_it_matters": "Entropy explains why many physical processes have a preferred direction, such as why heat flows from a hot object into a cooler one until temperatures equalize. It underlies the limits of engines, refrigeration, and energy conversion. Disagreements often arise when the same term is used across disciplines with different meanings and assumptions.",
+	  "escape_hatches": {
+		"read_full_article_url": "https://en.wikipedia.org/wiki/Entropy",
+		"related_but_different": "Information entropy",
+		"common_misconception": "Entropy is simply a measure of disorder rather than a count of microscopic possibilities."
+	  },
+	  "source": {
+		"type": "wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Entropy"
+	  }
+	},
     {
       "id": "incentives",
       "category": "How the World Works",
       "title": "Incentive",
+	  "clarifyingQuestion": "Why do incentives shape behavior more reliably than stated goals?",
       "definition": "An incentive is a reward or penalty that changes the expected consequences of an action, influencing choices by altering perceived costs, benefits, or risks.",
       "concept_framing": "This idea exists because outcomes in institutions depend on which actions are rewarded, punished, or made easy under real constraints.",
       "core_explanation": "Incentives can be explicit, such as pay, fines, and rules, or implicit, such as status and approval. They shape choices by changing expected consequences under limited information and constraints. Incentives can also shift effort toward measured targets rather than underlying goals. Effects depend on enforcement, monitoring, and who bears costs and benefits overall in a given setting and time horizon.",
@@ -65,25 +75,30 @@
       },
       "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Incentive" }
     },
-    {
-      "id": "cosmic-distance-ladder",
-      "category": "Science & Space",
-      "title": "Cosmic distance ladder",
-      "definition": "The cosmic distance ladder is a set of methods for measuring astronomical distances by calibrating indirect indicators against nearer, more directly measured distances.",
-      "concept_framing": "This idea exists because distance methods fail at different scales, so astronomy links calibrations to extend reliable measurement.",
-      "core_explanation": "Nearby distances can be measured with geometric parallax. Those measurements calibrate standard candles such as Cepheid variables, which are used to calibrate brighter indicators such as Type Ia supernovae. Each rung has systematic uncertainty from calibration error, dust, and selection effects. Overlapping ranges allow cross-checks that constrain errors and help align results from different instruments and surveys in many datasets.",
-      "why_it_matters": "It underlies estimates of the expansion rate of the universe and large-scale distances in cosmology for galaxies and clusters. Tensions between results from different calibrations motivate debate about systematic error, and the differences affect inferred ages, sizes, and derived parameters.",
-      "escape_hatches": {
-        "read_full_article_url": "https://en.wikipedia.org/wiki/Cosmic_distance_ladder",
-        "related_but_different": "Standard candle",
-        "common_misconception": "Distance indicators require calibration and can share correlated systematic errors."
-      },
-      "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Cosmic_distance_ladder" }
-    },
+	{
+	  "id": "cosmic-distance-ladder",
+	  "category": "Science & Space",
+	  "title": "Cosmic distance ladder",
+	  "clarifyingQuestion": "Why are astronomical distances measured through linked steps instead of directly?",
+	  "definition": "The cosmic distance ladder is a set of methods for measuring astronomical distances by calibrating indirect indicators against nearer, more directly measured distances.",
+	  "concept_framing": "This idea exists because no single measurement technique works across all cosmic scales, so astronomy depends on linked calibrations to reach farther objects.",
+	  "core_explanation": "Nearby stars have distances measured directly using geometric parallax. Those measurements are then used to calibrate Cepheid variable stars, whose brightness allows distances to be estimated much farther away. Each step relies on the accuracy of the previous one. Errors introduced at lower rungs propagate upward, affecting all distances inferred from higher rungs.",
+	  "why_it_matters": "The distance ladder supports measurements of the universe’s size, age, and expansion rate. Disagreements between results derived from different calibrations have led to ongoing debate about systematic error and possible gaps in current models. Small uncertainties can scale into large differences at cosmic distances.",
+	  "escape_hatches": {
+		"read_full_article_url": "https://en.wikipedia.org/wiki/Cosmic_distance_ladder",
+		"related_but_different": "Parallax",
+		"common_misconception": "Astronomical distances are measured directly across the entire universe."
+	  },
+	  "source": {
+		"type": "wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Cosmic_distance_ladder"
+	  }
+	},
 	{
 	  "id": "occams-razor",
 	  "category": "Big Ideas",
 	  "title": "Occam's razor",
+	  "clarifyingQuestion": "What does simplicity mean when comparing explanations with equal evidence?",
 	  "definition": "Occam's razor is a principle stating that, among competing explanations consistent with the evidence, the one making the fewest assumptions should be preferred.",
 	  "concept_framing": "This idea exists because humans need a way to compare explanations when evidence is limited and multiple accounts appear equally compatible with observed facts.",
 	  "core_explanation": "Occam's razor does not claim that simpler explanations are always true, only that unnecessary assumptions should be avoided. An assumption is unnecessary if removing it does not reduce an explanation’s ability to account for observations. The principle is used in science, philosophy, and modeling to guide hypothesis selection and theory building. Simplicity refers to the number of independent assumptions, not to ease of understanding or aesthetic appeal.",
@@ -99,6 +114,7 @@
 	  "id": "goodharts-law",
 	  "category": "Big Ideas",
 	  "title": "Goodhart’s law",
+	  "clarifyingQuestion": "Why do metrics break once they are used as targets?",
 	  "definition": "Goodhart’s law is the principle that when a measure becomes a target, it ceases to function as a reliable measure of the underlying process.",
 	  "concept_framing": "This idea exists because systems evaluated through metrics tend to change behavior in response to incentives tied to those metrics.",
 	  "core_explanation": "Goodhart’s law describes a feedback effect between measurement and behavior. When a metric is used only for observation, it can correlate well with the phenomenon of interest. Once the same metric is used for control, incentives, or evaluation, agents adapt their actions to improve the metric itself. This adaptation can weaken or break the original relationship between the metric and the goal it was meant to represent.",
@@ -114,6 +130,7 @@
 	  "id": "tragedy-of-the-commons",
 	  "category": "Big Ideas",
 	  "title": "Tragedy of the commons",
+	  "clarifyingQuestion": "Why do shared resources fail even when individuals act rationally?",
 	  "definition": "The tragedy of the commons is a situation in which individuals acting in their own interest overuse a shared resource, leading to depletion or collapse of that resource.",
 	  "concept_framing": "This idea exists because shared resources create conflicts between individual incentives and collective outcomes when access is open and coordination or limits are weak.",
 	  "core_explanation": "In a commons, each user receives the full benefit of additional use while sharing the cost of depletion with others. This imbalance encourages increased use even when total consumption harms the group. Over time, individually rational decisions can produce collectively harmful results. Outcomes vary depending on access rules, enforcement mechanisms, and the ability of users to coordinate behavior.",
@@ -129,6 +146,7 @@
 	  "id": "prisoners-dilemma",
 	  "category": "Big Ideas",
 	  "title": "Prisoner’s dilemma",
+	  "clarifyingQuestion": "Why does rational self-interest lead to worse outcomes than cooperation?",
 	  "definition": "The prisoner’s dilemma is a game-theoretic model showing how rational individuals may choose actions that lead to worse outcomes for all parties when cooperation is possible.",
 	  "concept_framing": "This idea exists because situations arise where individual incentives conflict with collective benefit, even when all participants prefer the cooperative outcome.",
 	  "core_explanation": "The model involves two decision-makers who choose independently without knowledge of the other’s choice. Each faces a higher personal payoff for defection regardless of the other’s action, making defection the rational strategy under standard assumptions. When both defect, the outcome is worse for each than if both had cooperated. The structure emphasizes how incentives and information shape outcomes rather than intentions.",
@@ -144,6 +162,7 @@
 	  "id": "confirmation-bias",
 	  "category": "Big Ideas",
 	  "title": "Confirmation bias",
+	  "clarifyingQuestion": "Why do people overweight evidence that fits existing beliefs?",
 	  "definition": "Confirmation bias is the tendency to favor information that supports existing beliefs while discounting or ignoring information that challenges them.",
 	  "concept_framing": "This idea exists because interpreting information through prior beliefs reduces cognitive effort and uncertainty when judgments must be made under limited time and information.",
 	  "core_explanation": "Confirmation bias influences how evidence is searched for, interpreted, and remembered. Information consistent with prior beliefs is more likely to be noticed and accepted, while conflicting information is examined more critically or dismissed. The process often operates without conscious awareness and can persist despite intentions to be objective. It appears across reasoning, belief formation, and decision-making in scientific, political, and everyday contexts.",
@@ -159,6 +178,7 @@
 	  "id": "survivorship-bias",
 	  "category": "Big Ideas",
 	  "title": "Survivorship bias",
+	  "clarifyingQuestion": "What errors arise when only visible successes are considered?",
 	  "definition": "Survivorship bias is the error of drawing conclusions from observations that remain visible while systematically ignoring cases that failed, disappeared, or were excluded.",
 	  "concept_framing": "This idea exists because information about successes is easier to observe and record than information about failures that leave no trace.",
 	  "core_explanation": "Survivorship bias occurs when analysis focuses only on entities that pass a selection process. The missing cases can change averages, risks, and apparent causes of success. Historical records, datasets, and narratives often reflect this imbalance because failures are less documented. The bias can persist even when selection rules are known, because absent data cannot be directly examined.",
@@ -174,10 +194,11 @@
 	  "id": "black-swan-theory",
 	  "category": "Big Ideas",
 	  "title": "Black swan theory",
+	  "clarifyingQuestion": "Why do rare events dominate outcomes despite low predictability?",
 	  "definition": "Black swan theory describes how rare, high-impact events that are difficult to predict can disproportionately shape outcomes and are often rationalized only after they occur.",
-	  "concept_framing": "This idea exists because historical experience shows that extreme events can dominate systems despite being absent from standard expectations or models.",
-	  "core_explanation": "Black swan theory emphasizes three features of certain events: rarity, large impact, and retrospective explanation. Such events fall outside regular expectations derived from past data. Afterward, narratives are constructed to make them appear predictable, even though prior models did not account for them. The theory challenges reliance on normal distributions and stable trends when assessing uncertainty and risk.",
-	  "why_it_matters": "It matters because many social, economic, and scientific systems are shaped more by extreme events than by typical fluctuations. Debate centers on how predictable these events truly are and whether better models can meaningfully reduce surprise.",
+	  "concept_framing": "This idea exists because experience shows that a small number of extreme events can dominate results even when they are excluded from standard expectations.",
+	  "core_explanation": "The theory focuses on events that are rare, have outsized impact, and are explained in hindsight as if they were foreseeable. Such events lie outside patterns inferred from past data and routine experience. After they occur, narratives form that overstate prior warning signals. The framework highlights how models based on normal distributions underestimate the influence of extreme outcomes.",
+	  "why_it_matters": "Black swan theory affects how risk is assessed in finance, policy, and science. Disagreement centers on whether these events are fundamentally unpredictable or whether better models of fat-tailed risk can reduce surprise.",
 	  "escape_hatches": {
 		"read_full_article_url": "https://en.wikipedia.org/wiki/Black_swan_theory",
 		"related_but_different": "Fat-tailed distribution",
@@ -189,6 +210,7 @@
 	  "id": "signal-to-noise",
 	  "category": "Big Ideas",
 	  "title": "Signal-to-noise ratio",
+	  "clarifyingQuestion": "How can meaningful information be separated from background variation?",
 	  "definition": "Signal-to-noise ratio is a measure comparing the strength of a desired signal to the level of background variation or interference that obscures it.",
 	  "concept_framing": "This idea exists because observations and measurements often contain both meaningful patterns and random variation that must be distinguished.",
 	  "core_explanation": "Signal-to-noise ratio quantifies how clearly information stands out from irrelevant fluctuations. A higher ratio means the underlying signal is easier to detect and interpret. In physical systems, noise can arise from measurement limits, environmental factors, or random processes. In data analysis, noise reflects variability unrelated to the phenomenon of interest. Low ratios make detection unreliable even when a real signal is present.",
@@ -204,14 +226,15 @@
 	  "id": "emergence",
 	  "category": "Big Ideas",
 	  "title": "Emergence",
+	  "clarifyingQuestion": "How do complex patterns arise from simple interactions alone?",
 	  "definition": "Emergence is the phenomenon where complex patterns or behaviors arise from interactions among simpler components that do not exhibit those properties individually.",
-	  "concept_framing": "This idea exists because many systems display large-scale behavior that cannot be directly inferred from examining their parts in isolation.",
-	  "core_explanation": "Emergence occurs when interactions between components produce collective outcomes that differ from component-level behavior. These outcomes depend on relationships, feedback, and organization rather than on any single element. Examples appear in physics, biology, and social systems, where simple rules generate complex structures. Emergent properties are often stable at the system level even though underlying components change. Explanations typically focus on interaction patterns rather than reduction to individual parts.",
-	  "why_it_matters": "Emergence challenges purely reductionist explanations by emphasizing system-level behavior. It is debated because some argue emergent properties are only descriptive shortcuts, while others view them as genuinely novel features requiring independent explanation.",
+	  "concept_framing": "This idea exists because many real systems show organized, large-scale behavior that cannot be predicted by examining components one at a time.",
+	  "core_explanation": "Emergence occurs when interactions among components produce system-level behavior that no single part controls. The behavior depends on how parts are arranged and interact, not just on their individual properties. For example, individual ants follow simple rules, yet colonies form stable foraging patterns and division of labor. The emergent pattern persists even as individual components change.",
+	  "why_it_matters": "Emergence explains why understanding parts alone is often insufficient for predicting system behavior. Debate centers on whether emergent properties require new explanatory levels or are simply convenient descriptions of complex interactions.",
 	  "escape_hatches": {
 		"read_full_article_url": "https://en.wikipedia.org/wiki/Emergence",
 		"related_but_different": "Reductionism",
-		"common_misconception": "Emergence implies that underlying components are irrelevant."
+		"common_misconception": "Emergence means the underlying components no longer matter."
 	  },
 	  "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Emergence" }
 	},
@@ -219,14 +242,15 @@
 	  "id": "reductionism",
 	  "category": "Big Ideas",
 	  "title": "Reductionism",
+	  "clarifyingQuestion": "When does explaining parts fail to explain the whole?",
 	  "definition": "Reductionism is the approach of explaining complex phenomena by analyzing them in terms of their simpler components and underlying mechanisms.",
-	  "concept_framing": "This idea exists because breaking systems into parts has repeatedly produced reliable explanations and predictions in science and philosophy.",
-	  "core_explanation": "Reductionism holds that understanding smaller units and their interactions can explain higher-level behavior. In practice, this involves isolating variables, identifying causal mechanisms, and studying components independently. The approach has been central to progress in physics, chemistry, and molecular biology. Reductionist explanations often assume that system behavior is fully determined by component behavior. Limits appear when interactions introduce effects not captured by component-level analysis alone.",
-	  "why_it_matters": "Reductionism shapes how research questions are framed and which explanations are considered valid. It is debated because critics argue that some system-level properties cannot be fully explained by parts alone, motivating alternative approaches such as emergent or holistic explanations.",
+	  "concept_framing": "This idea exists because breaking systems into parts has repeatedly produced clear explanations and reliable predictions across many domains.",
+	  "core_explanation": "Reductionism focuses on isolating components, identifying causal mechanisms, and explaining outcomes from lower-level behavior. It works well when system behavior closely tracks the properties and interactions of parts, such as explaining chemical reactions through molecular structure. Problems arise when interactions among parts produce effects that are not predictable from components alone. In those cases, reductionist explanations can describe mechanisms without capturing system-level behavior.",
+	  "why_it_matters": "Reductionism influences how problems are framed, studied, and validated in science and philosophy. It is debated because some phenomena appear to require system-level explanations, creating tension with approaches that emphasize emergence rather than decomposition.",
 	  "escape_hatches": {
 		"read_full_article_url": "https://en.wikipedia.org/wiki/Reductionism",
 		"related_but_different": "Emergence",
-		"common_misconception": "Reductionism denies the existence of higher-level patterns or structures."
+		"common_misconception": "Reductionism claims that higher-level patterns do not exist."
 	  },
 	  "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Reductionism" }
 	},
@@ -234,6 +258,7 @@
 	  "id": "path-dependence",
 	  "category": "Big Ideas",
 	  "title": "Path Dependence",
+	  "clarifyingQuestion": "Why do early choices constrain outcomes long after conditions change?",
 	  "definition": "Path dependence is the principle that outcomes depend strongly on the sequence of past events, even when earlier conditions are no longer relevant.",
 	  "concept_framing": "This idea exists because historical choices and chance events can constrain future options in ways that are difficult to reverse.",
 	  "core_explanation": "Path dependence describes systems where early decisions shape available alternatives later on. Small or contingent events can set a direction that becomes reinforced over time through increasing returns, coordination effects, or switching costs. Once established, a path may persist even if better alternatives exist. The concept is used to analyze technologies, institutions, and social systems. Outcomes cannot be fully explained by current conditions alone without reference to prior history.",
@@ -249,6 +274,7 @@
 	  "id": "moral-hazard",
 	  "category": "Big Ideas",
 	  "title": "Moral Hazard",
+	  "clarifyingQuestion": "Why does protection from loss encourage riskier behavior?",
 	  "definition": "Moral hazard is a situation where an actor takes greater risks because the negative consequences are partially or fully borne by another party.",
 	  "concept_framing": "This idea exists because protection from loss can change behavior when responsibility and consequences are separated.",
 	  "core_explanation": "Moral hazard arises when incentives are misaligned after an agreement or safety net is in place. Insurance, guarantees, or bailouts can reduce the perceived cost of risky actions. The party making decisions does not fully absorb potential losses, while benefits may remain private. Monitoring, contracts, and shared risk are commonly used to limit the effect. The concept applies to finance, insurance, employment, and public policy.",
@@ -264,6 +290,7 @@
 	  "id": "bayesian-inference",
 	  "category": "Big Ideas",
 	  "title": "Bayesian Inference",
+	  "clarifyingQuestion": "How should beliefs change as new evidence accumulates?",
 	  "definition": "Bayesian inference is a method of reasoning that updates the probability of a hypothesis by combining prior beliefs with new evidence.",
 	  "concept_framing": "This idea exists because beliefs about uncertain situations often need to change incrementally as new information becomes available.",
 	  "core_explanation": "Bayesian inference treats probability as a measure of belief rather than long-run frequency. A prior probability represents existing knowledge or assumptions before observing data. New evidence is incorporated using Bayes’ theorem to produce a posterior probability. The result depends on both the evidence and the chosen prior, which can be explicit or implicit. This framework is used in statistics, machine learning, and scientific reasoning.",
@@ -279,6 +306,7 @@
 	  "id": "game-theory",
 	  "category": "Big Ideas",
 	  "title": "Game Theory",
+	  "clarifyingQuestion": "How do outcomes change when decisions depend on others’ choices?",
 	  "definition": "Game theory is the study of mathematical models that analyze strategic interactions where outcomes depend on the choices of multiple decision-makers.",
 	  "concept_framing": "This idea exists because many social, economic, and political situations involve interdependent decisions rather than isolated choices.",
 	  "core_explanation": "Game theory represents situations as games defined by players, available actions, information, and payoffs. Outcomes depend not only on one player’s choice but on how choices interact across participants. Some models assume perfect information, while others allow uncertainty or incomplete knowledge. Solutions such as equilibria describe stable patterns of behavior under specified assumptions. Different games emphasize cooperation, conflict, or coordination.",
@@ -294,6 +322,7 @@
 	  "id": "formal-fallacy",
 	  "category": "Big Ideas",
 	  "title": "Formal fallacy",
+	  "clarifyingQuestion": "How can an argument fail even when its premises are true?",
 	  "definition": "A formal fallacy is an error in reasoning where the logical structure of an argument is invalid, regardless of the truth of its premises.",
 	  "concept_framing": "This idea exists because people can be persuaded by arguments that appear logically sound even when their underlying structure does not support the conclusion.",
 	  "core_explanation": "Formal fallacies occur when an argument’s conclusion does not logically follow from its premises. The error lies in the form of the argument rather than in the content of its statements. Even if all premises are true, the conclusion can still be invalid. Formal fallacies are identified by analyzing logical structure using rules of deduction rather than evaluating factual accuracy.",
@@ -309,6 +338,7 @@
 	  "id": "doppler-effect",
 	  "category": "Science & Space",
 	  "title": "Doppler effect",
+	  "clarifyingQuestion": "Why does motion change the frequency of observed waves?",
 	  "definition": "The Doppler effect is the change in observed frequency or wavelength of a wave caused by relative motion between the source and the observer.",
 	  "concept_framing": "This idea exists because measurements of waves differ depending on relative motion, requiring a way to account for systematic shifts in observed signals.",
 	  "core_explanation": "When a wave source and an observer move relative to each other, the spacing between successive wave fronts changes as measured by the observer. Motion toward each other produces a higher observed frequency, while motion apart produces a lower observed frequency. The effect applies to sound, light, and other waves, though its mathematical form depends on the type of wave and medium. In light, the Doppler effect is described using relativity rather than a physical medium.",
@@ -324,6 +354,7 @@
 	  "id": "second-law-of-thermodynamics",
 	  "category": "Science & Space",
 	  "title": "Second law of thermodynamics",
+	  "clarifyingQuestion": "Why do physical processes show a preferred direction over time?",
 	  "definition": "The second law of thermodynamics states that the total entropy of an isolated system cannot decrease over time and tends to increase in spontaneous processes.",
 	  "concept_framing": "This idea exists because observed physical processes show a consistent directionality, requiring a principle that distinguishes reversible descriptions from irreversible behavior.",
 	  "core_explanation": "The law formalizes the observation that heat flows spontaneously from hotter to colder bodies and not the reverse. In thermodynamics, it constrains how energy can be transformed and limits the efficiency of engines. Statistical mechanics explains the law by showing that macrostates with higher entropy correspond to far more microscopic configurations. While individual particles obey time-symmetric laws, large systems overwhelmingly evolve toward more probable macroscopic states.",
@@ -339,6 +370,7 @@
 	  "id": "plate-tectonics",
 	  "category": "Science & Space",
 	  "title": "Plate tectonics",
+	  "clarifyingQuestion": "How do moving plates explain many seemingly unrelated geological patterns?",
 	  "definition": "Plate tectonics is the scientific theory that Earth’s outer shell is divided into moving plates whose interactions produce earthquakes, volcanoes, mountain building, and the distribution of continents and oceans.",
 	  "concept_framing": "This idea exists because patterns in earthquakes, fossils, seafloor features, and continental shapes required a unifying explanation for large-scale geological change.",
 	  "core_explanation": "Earth’s lithosphere is broken into rigid plates that move slowly over the underlying asthenosphere. Plates diverge, converge, or slide past one another, creating distinct geological features at their boundaries. New crust forms at mid-ocean ridges, while older crust is recycled into the mantle at subduction zones. Plate motion is driven by mantle convection, slab pull, and ridge push acting over millions of years.",
@@ -354,6 +386,7 @@
 	  "id": "natural-selection",
 	  "category": "Science & Space",
 	  "title": "Natural selection",
+	  "clarifyingQuestion": "How can populations change without planning, intent, or direction?",
 	  "definition": "Natural selection is the process by which heritable traits that affect survival or reproduction become more or less common in a population over successive generations.",
 	  "concept_framing": "This idea exists because observed variation, reproduction, and differential survival required an explanation for how populations change without intentional direction.",
 	  "core_explanation": "Individuals within a population vary in traits, some of which are heritable. When environmental conditions favor certain traits, individuals possessing them tend to leave more offspring. Over many generations, these differences shift the distribution of traits within the population. Natural selection operates alongside mutation, genetic drift, and gene flow, and it does not produce fixed outcomes or predetermined goals.",
@@ -369,6 +402,7 @@
 	  "id": "theory-of-relativity",
 	  "category": "Science & Space",
 	  "title": "Theory of relativity",
+	  "clarifyingQuestion": "Why do measurements of space and time depend on motion and gravity?",
 	  "definition": "The theory of relativity is a framework describing how measurements of space, time, and gravity depend on motion and mass–energy rather than absolute reference frames.",
 	  "concept_framing": "This idea exists because classical physics could not account for observed inconsistencies involving high speeds, gravity, and the behavior of light.",
 	  "core_explanation": "The theory includes special relativity and general relativity. Special relativity states that the laws of physics are the same for all observers in uniform motion and that the speed of light is constant, leading to time dilation and length contraction. General relativity describes gravity as the curvature of spacetime caused by mass and energy. Together, the theories replace absolute space and time with relational measurements that depend on physical conditions.",
@@ -384,6 +418,7 @@
 	  "id": "big-bang",
 	  "category": "Science & Space",
 	  "title": "Big Bang",
+	  "clarifyingQuestion": "What does the Big Bang actually describe about the universe’s origin?",
 	  "definition": "The Big Bang is the cosmological model describing the early rapid expansion of the universe from a hot, dense state into its current large-scale structure.",
 	  "concept_framing": "This idea exists because astronomical observations show that galaxies are receding from each other and that the universe has evolved from earlier, denser conditions.",
 	  "core_explanation": "The model holds that space itself expanded from an extremely hot and dense initial phase. As the universe expanded, it cooled, allowing particles to form, then atoms, and later stars and galaxies. Evidence includes the observed expansion of galaxies, the cosmic microwave background radiation, and measured abundances of light elements. The model does not describe what preceded the expansion, only how the universe evolved afterward.",
@@ -399,6 +434,7 @@
 	  "id": "dark-matter",
 	  "category": "Science & Space",
 	  "title": "Dark matter",
+	  "clarifyingQuestion": "Why is unseen matter inferred from gravity rather than direct observation?",
 	  "definition": "Dark matter is a form of matter inferred from gravitational effects that does not emit, absorb, or reflect detectable electromagnetic radiation.",
 	  "concept_framing": "This idea exists because observed motions of galaxies and galaxy clusters cannot be explained by visible matter alone under known physical laws.",
 	  "core_explanation": "Astronomical measurements show that stars in galaxies orbit faster than visible mass predicts, and clusters contain more gravitational influence than luminous matter provides. These discrepancies are consistently explained by adding unseen mass distributed around galaxies and throughout cosmic structures. Dark matter interacts gravitationally but shows no confirmed interaction with light or ordinary matter beyond that. Multiple candidates have been proposed, but none have been directly detected.",
@@ -414,6 +450,7 @@
 	  "id": "exoplanet-detection-methods",
 	  "category": "Science & Space",
 	  "title": "Methods of detecting exoplanets",
+	  "clarifyingQuestion": "Why are exoplanets detected indirectly rather than observed directly?",
 	  "definition": "Methods of detecting exoplanets are observational techniques used to infer the existence and properties of planets orbiting stars beyond the Solar System.",
 	  "concept_framing": "This idea exists because planets around other stars are difficult to observe directly, requiring indirect signals to reveal their presence.",
 	  "core_explanation": "Most exoplanets are detected by measuring how a planet affects its host star rather than by imaging the planet itself. The transit method detects periodic dimming when a planet crosses a star’s disk, while the radial velocity method measures small shifts in stellar spectra caused by gravitational motion. Other techniques include direct imaging, gravitational microlensing, and timing variations. Each method is sensitive to different planet sizes, orbital distances, and stellar conditions.",
@@ -429,6 +466,7 @@
 	  "id": "stellar-nucleosynthesis",
 	  "category": "Science & Space",
 	  "title": "Stellar nucleosynthesis",
+	  "clarifyingQuestion": "How are heavier elements created from simpler matter inside stars?",
 	  "definition": "Stellar nucleosynthesis is the set of nuclear processes by which stars produce chemical elements through fusion and related reactions in their interiors.",
 	  "concept_framing": "This idea exists because the observed abundance of elements requires an explanation for how simple matter becomes heavier elements inside stars.",
 	  "core_explanation": "In stellar cores, extreme temperature and pressure allow atomic nuclei to fuse, releasing energy and forming heavier elements. Low-mass stars primarily fuse hydrogen into helium, while more massive stars can produce elements up to iron through successive fusion stages. Elements heavier than iron are mainly formed during supernova explosions and neutron-capture processes. These products are later dispersed into space, becoming part of gas clouds, planets, and living systems.",
@@ -444,6 +482,7 @@
 	  "id": "hubbles-law",
 	  "category": "Science & Space",
 	  "title": "Hubble's law",
+	  "clarifyingQuestion": "Why do more distant galaxies appear to recede faster?",
 	  "definition": "Hubble's law is the observation that the recessional velocity of galaxies increases in proportion to their distance from the observer.",
 	  "concept_framing": "This idea exists because astronomers noticed a consistent relationship between galaxy distances and redshifts that required a coherent explanation of large-scale cosmic motion.",
 	  "core_explanation": "Hubble's law states that more distant galaxies appear to move away faster than nearer ones, as measured by the redshift of their light. The relationship is expressed as velocity equals distance multiplied by a constant known as the Hubble constant. This pattern does not imply that galaxies are moving through space from a single center. Instead, it reflects the expansion of space itself on cosmological scales.",
@@ -459,6 +498,7 @@
 	  "id": "greenhouse-effect",
 	  "category": "Science & Space",
 	  "title": "Greenhouse effect",
+	  "clarifyingQuestion": "How does the atmosphere retain heat rather than letting it escape?",
 	  "definition": "The greenhouse effect is the process by which certain gases in a planet’s atmosphere trap heat, raising the surface temperature above what it would otherwise be.",
 	  "concept_framing": "This idea exists because Earth’s observed surface temperature cannot be explained by incoming solar energy alone without accounting for atmospheric heat retention.",
 	  "core_explanation": "Incoming sunlight largely passes through the atmosphere and warms the surface. The surface then emits energy as infrared radiation, some of which is absorbed and re-emitted by greenhouse gases such as water vapor, carbon dioxide, and methane. This re-emission slows the loss of heat to space and increases average surface temperature. The effect operates continuously and varies with atmospheric composition and energy balance.",
@@ -474,21 +514,25 @@
 	  "id": "scientific-theory",
 	  "category": "Science & Space",
 	  "title": "Scientific theory",
+	  "clarifyingQuestion": "What distinguishes a scientific theory from a hypothesis or speculation?",
 	  "definition": "A scientific theory is a well-substantiated explanatory framework that accounts for a broad set of observations and experimental results using testable principles.",
-	  "concept_framing": "This idea exists because science needs durable explanations that unify evidence, generate predictions, and remain open to revision when new data appear.",
-	  "core_explanation": "A scientific theory integrates observations, laws, and tested hypotheses into a coherent explanation of natural phenomena. It is supported by repeated testing, independent confirmation, and consistency with existing evidence. Theories differ from hypotheses by scope and evidential support, not by certainty or permanence. They can be refined or replaced when new observations conflict with predictions or reveal limits.",
-	  "why_it_matters": "Scientific theories organize knowledge and guide research across fields from physics to biology. Disputes arise over how much evidence is sufficient, how to compare competing theories, and how to communicate uncertainty without undermining explanatory power.",
+	  "concept_framing": "This idea exists because science requires explanations that organize evidence, generate predictions, and withstand repeated testing over time.",
+	  "core_explanation": "A scientific theory explains how and why a phenomenon occurs and makes predictions that can be tested. It is built from many lines of evidence that agree across experiments and observations. For example, the theory of evolution by natural selection explains patterns in fossils, genetics, and observed biological change. Theories can be revised or replaced when new evidence exposes limits or contradictions.",
+	  "why_it_matters": "Scientific theories guide research and interpretation across entire fields. Confusion often arises when theories are treated as tentative guesses rather than as robust explanations. Disagreement typically concerns how theories are tested, compared, or updated as evidence accumulates.",
 	  "escape_hatches": {
 		"read_full_article_url": "https://en.wikipedia.org/wiki/Scientific_theory",
 		"related_but_different": "Scientific law",
-		"common_misconception": "A scientific theory is a guess rather than a well-tested explanation."
+		"common_misconception": "A scientific theory is just an unproven idea."
 	  },
-	  "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Scientific_theory" }
+	  "source": {
+		"type": "wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Scientific_theory" }
 	},
 	{
 	  "id": "supply-and-demand",
 	  "category": "How the World Works",
 	  "title": "Supply and demand",
+	  "clarifyingQuestion": "How do prices emerge from the interaction of buyers and sellers?",
 	  "definition": "Supply and demand is an economic model describing how prices and quantities in markets are determined by the interaction between sellers’ willingness to sell and buyers’ willingness to buy.",
 	  "concept_framing": "This idea exists because observed market outcomes vary systematically with availability and desire, requiring a simple way to explain price formation and allocation.",
 	  "core_explanation": "Supply represents how much producers offer at different prices, while demand represents how much consumers seek at those prices. When price rises, quantity supplied generally increases and quantity demanded generally decreases, and the opposite occurs when price falls. The intersection of supply and demand indicates a market equilibrium where quantity supplied equals quantity demanded. Changes in costs, preferences, technology, or information can shift either curve and alter the equilibrium outcome.",
@@ -504,6 +548,7 @@
 	  "id": "inflation",
 	  "category": "How the World Works",
 	  "title": "Inflation",
+	  "clarifyingQuestion": "Why does a general rise in prices reduce purchasing power over time?",
 	  "definition": "Inflation is the sustained increase in the general price level of goods and services in an economy over time, resulting in a decline in purchasing power.",
 	  "concept_framing": "This idea exists because money prices change unevenly across time, creating the need to track how overall purchasing power rises or falls.",
 	  "core_explanation": "Inflation is commonly measured using price indices that track the average cost of a defined basket of goods and services. It can arise from increased demand, higher production costs, or expansion of the money supply relative to output. Moderate inflation is typical in growing economies, while very high inflation disrupts contracts and savings. Central banks influence inflation through interest rates, credit conditions, and monetary policy tools.",
@@ -519,6 +564,7 @@
 	  "id": "opportunity-cost",
 	  "category": "How the World Works",
 	  "title": "Opportunity cost",
+	  "clarifyingQuestion": "What is actually given up when one option is chosen?",
 	  "definition": "Opportunity cost is the value of the next best alternative that is forgone when a limited resource is used for one choice instead of another.",
 	  "concept_framing": "This idea exists because time, money, and attention are limited, so choosing one option necessarily excludes other possible uses.",
 	  "core_explanation": "Opportunity cost is not measured by the outcome of the chosen option but by the benefits of the best rejected alternative. It applies to individual decisions, business strategy, and public policy whenever resources cannot be used simultaneously for all purposes. Opportunity costs can include explicit financial returns as well as implicit benefits such as time, flexibility, or risk reduction. Many costs are invisible because the foregone alternative is not directly observed or recorded.",
@@ -534,6 +580,7 @@
 	  "id": "division-of-labour",
 	  "category": "How the World Works",
 	  "title": "Division of labour",
+	  "clarifyingQuestion": "Why does separating tasks increase productivity in complex systems?",
 	  "definition": "The division of labour is the organization of work into specialized tasks performed by different individuals or groups to increase efficiency, coordination, and productive capacity.",
 	  "concept_framing": "This idea exists because complex production exceeds what a single person can perform efficiently, leading societies to separate tasks and coordinate specialized roles.",
 	  "core_explanation": "Under division of labour, tasks are broken into narrower activities that workers repeat and refine over time. Specialization can raise productivity through learning, reduced switching costs, and better use of skills or tools. Coordination mechanisms such as markets, management, or norms are required to recombine outputs into finished goods. The approach appears in households, firms, and entire economies, from manufacturing lines to professional services.",
@@ -549,6 +596,7 @@
 	  "id": "comparative-advantage",
 	  "category": "How the World Works",
 	  "title": "Comparative advantage",
+	  "clarifyingQuestion": "Why can specialization benefit everyone even when productivity differs?",
 	  "definition": "Comparative advantage is the principle that an actor benefits from specializing in activities with lower relative opportunity costs compared to alternatives, even when absolute productivity is lower.",
 	  "concept_framing": "This idea exists because tradeoffs differ across activities, and relative efficiency determines how cooperation can increase total output.",
 	  "core_explanation": "Comparative advantage compares opportunity costs rather than absolute output levels. An individual or country has a comparative advantage in an activity if it gives up less of other activities by specializing in it. When parties specialize according to these relative costs and exchange results, total production can increase. The principle holds under broad conditions, assuming resources are mobile within but not across actors. It forms a foundational explanation for gains from trade.",
@@ -564,6 +612,7 @@
 	  "id": "principal-agent-problem",
 	  "category": "How the World Works",
 	  "title": "Principal–agent problem",
+	  "clarifyingQuestion": "Why does delegation often lead to actions that diverge from intent?",
 	  "definition": "The principal–agent problem is a situation where one party delegates work to another whose incentives and information differ, creating the risk of misaligned actions.",
 	  "concept_framing": "This idea exists because delegation is common in organizations and markets, and differing goals or information can lead to outcomes the delegating party did not intend.",
 	  "core_explanation": "The problem arises when a principal cannot fully observe or verify an agent’s actions. Agents may act in their own interest rather than the principal’s, especially when monitoring is costly or incomplete. Contracts, incentives, and oversight are used to reduce this gap, but they cannot eliminate it entirely. Information asymmetry is central, as the agent often knows more about effort or conditions than the principal. The issue appears in employment, finance, politics, and regulation.",
@@ -579,36 +628,43 @@
 	  "id": "bureaucracy",
 	  "category": "How the World Works",
 	  "title": "Bureaucracy",
+	  "clarifyingQuestion": "Why do large organizations rely on formal rules and hierarchies?",
 	  "definition": "A bureaucracy is an organizational system characterized by formal rules, hierarchical authority, specialized roles, and standardized procedures for decision-making and administration.",
-	  "concept_framing": "This idea exists because large organizations need repeatable, predictable ways to coordinate work, allocate authority, and apply rules across many people and cases.",
-	  "core_explanation": "Bureaucracies rely on written rules to define responsibilities and limit discretion. Authority flows through a hierarchy, with decisions made according to role rather than personal status. Specialized positions divide complex tasks into manageable functions. Standardized procedures aim to ensure consistency, continuity, and accountability, especially when personnel change or scale increases. These features prioritize reliability over speed or flexibility.",
-	  "why_it_matters": "Bureaucracy shapes how governments, corporations, and institutions operate at scale. Debate centers on the trade-off between efficiency and rigidity, and on how rule-bound systems can both reduce arbitrariness and create delay or detachment from outcomes.",
+	  "concept_framing": "This idea exists because large organizations need consistent ways to coordinate work, assign responsibility, and apply decisions across many people and situations.",
+	  "core_explanation": "Bureaucracies use rules to define what actions are allowed and who is responsible for them. Decisions are made according to role and procedure rather than individual judgment. Specialized roles divide complex work, and standardized processes ensure the same steps are followed each time. For example, a permit application may require identical reviews regardless of who submits it. These features favor reliability and accountability over speed or adaptation.",
+	  "why_it_matters": "Bureaucracy enables large systems to function without relying on personal discretion. Debate focuses on the trade-off between predictability and responsiveness, since rigid procedures can prevent abuse while also slowing change or obscuring outcomes. The balance affects how institutions perform under stress or uncertainty.",
 	  "escape_hatches": {
 		"read_full_article_url": "https://en.wikipedia.org/wiki/Bureaucracy",
 		"related_but_different": "Administrative law",
-		"common_misconception": "Bureaucracy refers only to inefficiency rather than a specific organizational structure."
+		"common_misconception": "Bureaucracy is defined only by inefficiency rather than by rule-based coordination."
 	  },
-	  "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Bureaucracy" }
+	  "source": {
+		"type": "wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Bureaucracy" }
 	},
 	{
 	  "id": "feedback",
 	  "category": "How the World Works",
 	  "title": "Feedback",
+	  "clarifyingQuestion": "How can a system’s output end up shaping its future behavior?",
 	  "definition": "Feedback is a process in which the output of a system influences its own behavior by affecting future inputs or internal processes.",
-	  "concept_framing": "This idea exists because many systems change over time in response to their own effects, creating patterns that cannot be explained by one-way cause and effect.",
-	  "core_explanation": "In a feedback process, an action produces effects that return to influence the system again. Positive feedback amplifies changes, leading to growth, acceleration, or instability. Negative feedback counteracts changes, promoting balance, stability, or regulation. Feedback can operate through physical, biological, social, or informational channels. The overall behavior of a system often depends more on feedback structure than on individual components.",
-	  "why_it_matters": "Feedback explains why systems can stabilize, oscillate, or spiral out of control. Disagreement often arises over which feedback loops dominate in complex systems and how interventions alter long-term behavior rather than immediate outcomes.",
+	  "concept_framing": "This idea exists because many systems do not respond once and stop, but instead adjust continuously based on the effects they produce.",
+	  "core_explanation": "In a feedback process, an action produces an effect that returns to influence the system again. For example, a thermostat measures room temperature and turns heating on or off based on the result. Negative feedback counteracts change and stabilizes behavior, while positive feedback reinforces change and pushes the system further in the same direction. The long-term behavior depends on which type of loop dominates.",
+	  "why_it_matters": "Feedback explains why some systems settle into stable states while others escalate or collapse. Disputes often focus on identifying the dominant feedback loops in complex systems and predicting how changes will alter behavior over time rather than immediately.",
 	  "escape_hatches": {
 		"read_full_article_url": "https://en.wikipedia.org/wiki/Feedback",
 		"related_but_different": "Control theory",
-		"common_misconception": "Feedback always improves performance or outcomes."
+		"common_misconception": "Feedback always improves outcomes rather than sometimes amplifying problems."
 	  },
-	  "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Feedback" }
+	  "source": {
+		"type": "wikipedia",
+		"url": "https://en.wikipedia.org/wiki/Feedback" }
 	},
 	{
 	  "id": "network-effect",
 	  "category": "How the World Works",
 	  "title": "Network effect",
+	  "clarifyingQuestion": "Why does adding more users increase value for existing participants?",
 	  "definition": "A network effect is a phenomenon in which the value of a good or service increases as more people use it.",
 	  "concept_framing": "This idea exists because participation by additional users can change costs, benefits, and usefulness for everyone already connected to a system.",
 	  "core_explanation": "Network effects arise when each new user adds potential connections, information, or compatibility for others. Direct network effects occur when users interact with each other, while indirect effects occur through complementary goods or services. Growth can be gradual at first and then accelerate once a critical mass is reached. Network effects can reinforce dominance by making established systems harder to replace, even if alternatives exist.",
@@ -624,6 +680,7 @@
 	  "id": "public-good",
 	  "category": "How the World Works",
 	  "title": "Public good",
+	  "clarifyingQuestion": "Why can some goods be shared without reducing availability to others?",
 	  "definition": "A public good is a type of good that is non-excludable and non-rivalrous, meaning use by one does not reduce availability to others.",
 	  "concept_framing": "This idea exists because some goods provide benefits that cannot be restricted to individual users and do not diminish when shared across a population.",
 	  "core_explanation": "Public goods are defined by non-excludability, where people cannot be easily prevented from access, and non-rivalry, where one person’s use does not reduce another’s. Examples often include national defense, basic research, and clean air, though real cases can vary in degree rather than fitting perfectly. Because individuals can benefit without paying, private markets tend to underprovide these goods. Provision therefore often involves collective arrangements such as taxation, public institutions, or coordinated agreements.",
@@ -639,6 +696,7 @@
   "id": "regulatory-capture",
   "category": "How the World Works",
   "title": "Regulatory capture",
+  "clarifyingQuestion": "Why do regulators sometimes serve industry interests instead of the public?",
   "definition": "Regulatory capture is a condition in which regulatory agencies act in the interest of the industries they oversee rather than the public interest.",
   "concept_framing": "This idea exists because regulation creates ongoing relationships between regulators and regulated entities, allowing incentives, information gaps, and influence to shift oversight outcomes.",
   "core_explanation": "Regulatory capture occurs when regulated firms exert disproportionate influence over the rules, enforcement, or priorities of a regulatory body. This influence can arise through lobbying, revolving-door employment, information asymmetry, or political pressure. Over time, regulators may adopt the perspectives or goals of the industry they supervise. Capture does not require corruption and can emerge gradually through normal institutional processes.",
@@ -649,6 +707,242 @@
     "common_misconception": "Regulatory capture always involves illegal or explicit corruption."
   },
   "source": { "type": "wikipedia", "url": "https://en.wikipedia.org/wiki/Regulatory_capture" }
+},
+{
+  "id": "speed-of-light",
+  "category": "Science & Space",
+  "title": "Speed of light",
+  "clarifyingQuestion": "Why does a fixed speed limit play such a central role in physics?",
+  "definition": "The speed of light is a fundamental physical constant representing the maximum speed at which information, energy, or causal influence can propagate through space.",
+  "concept_framing": "This idea exists because measurements of light revealed a constant speed that contradicted classical expectations and forced a rethinking of how space, time, and motion are related.",
+  "core_explanation": "In a vacuum, light travels at approximately 300,000 kilometers per second, a value that does not depend on the motion of its source or observer. This invariance means the speed of light acts as a structural limit rather than merely a fast signal. Modern physical theories treat it as a conversion factor linking space and time. Effects such as time dilation and length contraction arise from preserving this constant across all frames of reference.",
+  "why_it_matters": "The speed of light underpins modern physics, including relativity, causality, and information transfer. It challenges intuitive ideas about absolute time and simultaneity. Debate continues over how this limit should be interpreted in quantum theories and extreme physical conditions.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Speed_of_light",
+    "related_but_different": "Special relativity",
+    "common_misconception": "The speed of light refers only to light rather than the maximum speed of cause and effect."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Speed_of_light" }
+},
+{
+  "id": "olbers-paradox",
+  "category": "Science & Space",
+  "title": "Olbers' paradox",
+  "clarifyingQuestion": "Why is the night sky dark if the universe contains countless stars?",
+  "definition": "Olbers' paradox is the apparent contradiction between the darkness of the night sky and the expectation that a static, infinite universe filled with stars should appear bright.",
+  "concept_framing": "This idea exists because simple assumptions about an infinite, unchanging universe led to predictions that conflicted with everyday observations of a dark night sky.",
+  "core_explanation": "If the universe were infinite, eternal, and uniformly filled with stars, every line of sight should eventually end on a stellar surface. In that case, the night sky would be as bright as the surface of a star. The observed darkness indicates that at least one of these assumptions is incorrect. Modern explanations point to the finite age of the universe, cosmic expansion, and the limited time light has had to reach observers.",
+  "why_it_matters": "Olbers' paradox matters because it reveals that intuitive models of the universe are incomplete. It helped motivate modern cosmology and supports the view that the universe has a history and a changing structure. Debate historically centered on which assumptions failed and why darkness persists despite immense stellar numbers.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Olbers%27_paradox",
+    "related_but_different": "Cosmic microwave background",
+    "common_misconception": "The darkness of the night sky is not caused simply by dust blocking starlight."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Olbers%27_paradox" }
+},
+{
+  "id": "time-dilation",
+  "category": "Science & Space",
+  "title": "Time dilation",
+  "clarifyingQuestion": "How can motion cause time to pass at different rates?",
+  "definition": "Time dilation is the effect in which the passage of time differs between observers due to relative motion or differences in gravitational strength.",
+  "concept_framing": "This idea exists because precise measurements showed that clocks do not remain synchronized when motion or gravity varies, contradicting assumptions of universal, absolute time.",
+  "core_explanation": "In special relativity, time dilation occurs because the speed of light is constant for all observers, requiring time intervals to adjust when relative motion changes. Moving clocks are observed to tick more slowly than stationary ones from another frame of reference. In general relativity, gravity also affects time, with clocks running slower in stronger gravitational fields. These effects have been confirmed by experiments using fast-moving particles, aircraft clocks, and satellite systems.",
+  "why_it_matters": "Time dilation matters because it shows that time is not universal but depends on physical conditions. It is essential for accurate operation of technologies such as GPS. Debate continues around how time dilation should be interpreted conceptually and how it integrates with quantum descriptions of time.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Time_dilation",
+    "related_but_different": "Special relativity",
+    "common_misconception": "Time dilation is not an illusion or measurement error but a real physical effect."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Time_dilation" }
+},
+{
+  "id": "general-relativity",
+  "category": "Science & Space",
+  "title": "General relativity",
+  "clarifyingQuestion": "How does gravity arise from spacetime geometry rather than a pulling force?",
+  "definition": "General relativity is a physical theory describing gravity as the effect of mass and energy on the geometry of spacetime rather than as a conventional force.",
+  "concept_framing": "This idea exists because precise observations of gravity, motion, and light could not be reconciled with earlier force-based descriptions of gravitational interaction.",
+  "core_explanation": "In general relativity, massive objects alter the structure of spacetime, changing how objects and light move. Bodies follow paths determined by this geometry rather than being pulled by a force acting at a distance. Predictions of the theory include the bending of light near massive objects, gravitational time dilation, and shifts in planetary orbits. These effects have been confirmed through astronomical observations and precision measurements.",
+  "why_it_matters": "General relativity matters because it provides the most accurate description of gravity currently available. It underlies modern cosmology and astrophysics, including models of black holes and the expanding universe. Debate continues about how gravity described this way can be unified with quantum theories.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/General_relativity",
+    "related_but_different": "Newtonian gravity",
+    "common_misconception": "General relativity does not describe gravity as a force acting instantaneously at a distance."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/General_relativity" }
+},
+{
+  "id": "tidal-locking",
+  "category": "Science & Space",
+  "title": "Tidal locking",
+  "clarifyingQuestion": "Why does the Moon keep the same face oriented toward Earth?",
+  "definition": "Tidal locking is the process by which an astronomical body’s rotation period becomes synchronized with its orbital period around another body.",
+  "concept_framing": "This idea exists because long-term gravitational interactions were needed to explain why some orbiting bodies show persistent orientation patterns rather than rotating freely.",
+  "core_explanation": "Tidal locking occurs through gravitational interactions that create internal stresses and energy dissipation within an orbiting body. Over time, these effects slow rotation until the same side consistently faces the object it orbits. The Moon became tidally locked to Earth early in its history through this process. Similar locking is observed among many moons in the Solar System and in some exoplanetary systems.",
+  "why_it_matters": "Tidal locking matters because it affects climate, illumination, and long-term stability of orbiting bodies. It helps explain surface differences between near and far sides of moons. Debate continues about how tidal locking influences habitability for planets orbiting close to their stars.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Tidal_locking",
+    "related_but_different": "Orbital resonance",
+    "common_misconception": "The Moon does rotate; it rotates once for each orbit around Earth."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Tidal_locking" }
+},
+{
+  "id": "cosmic-microwave-background",
+  "category": "Science & Space",
+  "title": "Cosmic microwave background",
+  "clarifyingQuestion": "How can ancient light still be observed billions of years later?",
+  "definition": "The cosmic microwave background is faint, uniform microwave radiation filling space, originating from the early universe when matter and radiation first decoupled.",
+  "concept_framing": "This idea exists because observations revealed a pervasive background signal that could only be explained as leftover radiation from the universe’s earliest, hot, dense phase.",
+  "core_explanation": "The cosmic microwave background formed about 380,000 years after the Big Bang, when the universe cooled enough for atoms to form and light to travel freely. That radiation has since stretched to microwave wavelengths as space expanded. It appears nearly uniform in all directions, with tiny temperature variations. These variations encode information about early density differences that later shaped galaxies and large-scale structure.",
+  "why_it_matters": "The cosmic microwave background matters because it provides direct evidence of the universe’s early conditions. It supports the Big Bang model and constrains cosmological parameters such as age and composition. Debate continues over how best to interpret subtle anomalies and what they imply about inflation and early-universe physics.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background",
+    "related_but_different": "Big Bang",
+    "common_misconception": "The cosmic microwave background is not radiation from stars or galaxies."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Cosmic_microwave_background" }
+},
+{
+  "id": "orbit",
+  "category": "Science & Space",
+  "title": "Orbit",
+  "clarifyingQuestion": "Why does constant falling not cause satellites to hit Earth?",
+  "definition": "An orbit is the curved path of an object around another body, produced when forward motion and gravitational attraction balance to create continuous free fall.",
+  "concept_framing": "This idea exists because observed motions of planets and satellites required an explanation for how objects can keep falling toward a body without colliding with it.",
+  "core_explanation": "An object in orbit moves forward fast enough that as it falls toward a body, the surface curves away beneath it. Gravity continuously accelerates the object downward, but its sideways motion prevents impact. This creates a stable path rather than a crash. Different orbital shapes and speeds arise depending on distance, velocity, and gravitational strength.",
+  "why_it_matters": "Orbit matters because it explains the motion of planets, moons, and artificial satellites. It underpins spaceflight, navigation, and communication systems. Debate persists over how orbital behavior changes under extreme conditions such as strong gravity or relativistic speeds.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Orbit",
+    "related_but_different": "Free fall",
+    "common_misconception": "Satellites stay up because they are beyond gravity’s reach."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Orbit" }
+},
+{
+  "id": "nuclear-fusion",
+  "category": "Science & Space",
+  "title": "Nuclear fusion",
+  "clarifyingQuestion": "How does the Sun produce energy without burning chemical fuel?",
+  "definition": "Nuclear fusion is a process in which atomic nuclei combine to form heavier nuclei, releasing energy due to changes in binding energy.",
+  "concept_framing": "This idea exists because the Sun’s enormous and sustained energy output could not be explained by chemical burning or gravitational collapse alone.",
+  "core_explanation": "In the Sun’s core, extremely high temperature and pressure allow hydrogen nuclei to overcome repulsive forces and fuse into helium. This fusion releases energy according to mass–energy equivalence, providing the Sun’s light and heat. The process is stable over billions of years because it is regulated by pressure and temperature balance. Fusion differs fundamentally from combustion, which involves rearranging electrons rather than nuclei.",
+  "why_it_matters": "Nuclear fusion matters because it explains how stars generate energy and synthesize elements over cosmic timescales. It underlies models of stellar lifecycles and the evolution of galaxies. Debate continues over how fusion can be replicated and controlled efficiently for human energy production.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Nuclear_fusion",
+    "related_but_different": "Nuclear fission",
+    "common_misconception": "The Sun’s energy does not come from burning fuel in a chemical sense."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Nuclear_fusion" }
+},
+{
+  "id": "money",
+  "category": "How the World Works",
+  "title": "Money",
+  "clarifyingQuestion": "How can something without intrinsic value coordinate real economic activity?",
+  "definition": "Money is a widely accepted medium of exchange, unit of account, and store of value used to facilitate transactions and measure economic value.",
+  "concept_framing": "This idea exists because complex exchange requires a common reference that allows goods, services, and obligations to be compared and traded efficiently.",
+  "core_explanation": "Money functions by shared acceptance rather than physical usefulness. It allows indirect exchange by separating buying from selling across time and participants. Different forms of money have existed, including commodities, coins, paper currency, and digital balances. What matters is trust that others will accept it under established rules and institutions.",
+  "why_it_matters": "Money matters because it enables large-scale coordination without requiring direct barter. Its effectiveness depends on stability, credibility, and governance rather than material properties. Debate continues over how money should be created, managed, and constrained to balance flexibility with long-term trust.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Money",
+    "related_but_different": "Currency",
+    "common_misconception": "Money has value because of what it is made from rather than shared acceptance."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Money" }
+},
+{
+  "id": "normal-accident-theory",
+  "category": "How the World Works",
+  "title": "Normal accident theory",
+  "clarifyingQuestion": "Why do complex systems fail even when well designed and managed?",
+  "definition": "Normal accident theory is the view that accidents are inevitable in complex, tightly coupled systems because interactions and failures cannot be fully anticipated or contained.",
+  "concept_framing": "This idea exists because repeated disasters in engineered systems showed that failures often arise from ordinary interactions rather than rare mistakes or negligence.",
+  "core_explanation": "Normal accident theory argues that complexity creates unexpected interactions among components, while tight coupling limits the time and flexibility needed to respond. Small failures can cascade before operators understand what is happening. Redundancy and safeguards may add complexity rather than reduce risk. As systems grow larger and more interconnected, some failures become unavoidable outcomes of their structure.",
+  "why_it_matters": "Normal accident theory matters because it challenges the assumption that better management or technology can eliminate systemic failure. It has influenced debates about nuclear power, aviation, finance, and infrastructure. Disagreement remains over which systems are unavoidably risky and which can be redesigned to reduce coupling or complexity.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Normal_accident_theory",
+    "related_but_different": "High reliability organization",
+    "common_misconception": "Normal accident theory does not claim that all accidents are caused by human error."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Normal_accident_theory" }
+},
+{
+  "id": "institutional-theory",
+  "category": "How the World Works",
+  "title": "Institutional theory",
+  "clarifyingQuestion": "Why do formal rules often shape behavior more than individual intentions?",
+  "definition": "Institutional theory is a framework explaining how formal rules, norms, and organizational structures shape behavior and outcomes independently of individual preferences.",
+  "concept_framing": "This idea exists because persistent patterns of behavior often remain stable even when participants change, suggesting that structures matter more than intentions.",
+  "core_explanation": "Institutional theory focuses on how rules, incentives, and norms constrain and enable actions within organizations and societies. These structures guide behavior by defining what is permitted, rewarded, or discouraged. Individuals adapt to institutional contexts to function effectively within them. As a result, outcomes often reflect the design of systems rather than the motives of participants.",
+  "why_it_matters": "Institutional theory matters because it explains why reforms based on goodwill alone frequently fail. It shifts attention from personal motives to structural design and incentives. Debate continues over how flexible institutions are and how quickly they can change without destabilizing core functions.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Institutional_theory",
+    "related_but_different": "New institutional economics",
+    "common_misconception": "Institutional theory does not claim that individual intentions are irrelevant."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Institutional_theory"
+  }
+},
+{
+  "id": "default-effect",
+  "category": "How the World Works",
+  "title": "Default effect",
+  "clarifyingQuestion": "Why do preset options strongly influence decisions even when alternatives exist?",
+  "definition": "The default effect is a cognitive bias in which people are more likely to choose options that are presented as the preselected or standard choice.",
+  "concept_framing": "This idea exists because many decisions are made under uncertainty or limited attention, making default options a low-effort way to proceed.",
+  "core_explanation": "The default effect occurs when a choice is framed so that one option is selected unless an active change is made. People tend to stick with defaults due to inertia, perceived endorsement, or the cost of switching. Defaults can influence outcomes even when alternatives are clearly available and easily accessible. This effect appears across domains such as finance, health, and technology.",
+  "why_it_matters": "The default effect matters because it shows how outcomes can be shaped without restricting choice. It raises questions about how much influence choice architecture should have over important decisions. Debate continues over when defaults are helpful guides and when they cross into undue manipulation.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Default_effect",
+    "related_but_different": "Status quo bias",
+    "common_misconception": "Defaults influence behavior even when people are free to choose otherwise."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Default_effect" }
+},
+{
+  "id": "complex-adaptive-system",
+  "category": "How the World Works",
+  "title": "Complex adaptive system",
+  "clarifyingQuestion": "Why do systems with many interacting parts resist centralized control?",
+  "definition": "A complex adaptive system is a system composed of interacting agents that adapt to each other and their environment, producing collective behavior not directed by a central authority.",
+  "concept_framing": "This idea exists because many natural and social systems display organized behavior that cannot be explained or controlled by linear rules or centralized planning alone.",
+  "core_explanation": "Complex adaptive systems change over time as individual components respond to local information and feedback. These interactions generate patterns such as self-organization, adaptation, and emergence. Because behavior arises from many simultaneous interactions, outcomes are difficult to predict or steer precisely. Small interventions can have large effects, while large interventions may produce little change.",
+  "why_it_matters": "Complex adaptive systems matter because attempts to fully control them often fail or backfire. The concept informs fields such as ecology, economics, biology, and organizational design. Debate continues over how much influence can be exerted without disrupting beneficial adaptive behavior.",
+  "escape_hatches": {
+    "read_full_article_url": "https://en.wikipedia.org/wiki/Complex_adaptive_system",
+    "related_but_different": "Emergence",
+    "common_misconception": "Complex adaptive systems are not chaotic systems without structure or order."
+  },
+  "source": {
+    "type": "wikipedia",
+    "url": "https://en.wikipedia.org/wiki/Complex_adaptive_system"}
 }
   ]
 }
+

@@ -155,3 +155,27 @@ OUTPUT
 Produce ONLY the IdeaCard content, formatted clearly by section.
 Do not explain your reasoning.
 Do not add commentary.
+
+-------------------------------------------------------------------------------
+
+
+========================================
+CARD REWRITES
+========================================
+
+Rewrite this existing IdeaCard to improve clarity and compression.
+
+Constraints:
+- Keep the same title and category
+- Keep the same section structure and labels
+- Reduce total length by ~30%
+- Remove academic hedging and institutional tone
+- Replace abstraction with ONE concrete example where specified
+- Do not introduce metaphors or analogies
+- Do not add new concepts
+- Do not change the definition sentence unless explicitly required
+
+Focus fixes:
+[PASTE YOUR FIX NOTES HERE]
+
+Output ONLY the revised card.
